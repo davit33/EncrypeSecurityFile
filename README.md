@@ -12,5 +12,5 @@ allprojects { <br />
 Step 2. Add the dependency
 
 dependencies { <br />
-&emsp;&emsp;implementation 'com.github.davit33:EncrypeSecurityFile:1.0.5' <br />
+&emsp;&emsp;implementation 'com.github.davit33:EncrypeSecurityFile:Tag' <br />
 } <br />
