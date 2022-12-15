@@ -7,7 +7,7 @@ workflows:
       vars:
         PACKAGE_NAME: "com.davit.encrypefilesecurity"
     scripts:
-      - name: Set Android SDK location
+      - name: C:\Users\Laptop-PC\AppData\Local\Android\Sdk
         script: |
           echo "sdk.dir=$ANDROID_SDK_ROOT" > "$CM_BUILD_DIR/android/local.properties"
       - name: Build Android release
