@@ -7,9 +7,6 @@ workflows:
       vars:
         PACKAGE_NAME: "com.davit.encrypefilesecurity"
     scripts:
-      - name: C:\Users\Laptop-PC\AppData\Local\Android\Sdk
-        script: |
-          echo "sdk.dir=$ANDROID_SDK_ROOT" > "$CM_BUILD_DIR/android/local.properties"
       - name: Build Android release
         script: |
           LATEST_GOOGLE_PLAY_BUILD_NUMBER=$(google-play get-latest-build-number --package-name "$PACKAGE_NAME")
