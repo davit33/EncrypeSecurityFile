@@ -4,4 +4,4 @@ workflows:
     scripts:
       - ./gradlew assembleDebug
     artifacts:
-      - build/outputs/**/**/*.apk
+      - app/build/**/outputs/**/*.apk
