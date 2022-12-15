@@ -8,13 +8,6 @@ workflows:
         PACKAGE_NAME: "com.davit.encrypefilesecurity"
     scripts:
       - name: Build Android debug
-        script: ./gradlew :sample:installDebug
+        script: ...
     artifacts:
       - android/app/build/outputs/**/*.apk
-    publishing:
-      email:
-        recipients:
-          - devbizsolution@gmail.com
-        notify:
-          success: true
-          failure: false
